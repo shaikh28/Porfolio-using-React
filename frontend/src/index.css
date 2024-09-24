@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background for contrast */
+    font-family: sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+.name:hover{
+  color: blue ;
+}
+  .live:hover{
+    transition: 0.3s;
+    background-color:red;
+    color: white;
+  }
+  .live{
+    margin-right: 5px;
+    background-color: blue;
+    color: white;
+  }
+  .font{
+    font-family:  sans-serif;
+    font-style:normal;
+  }
