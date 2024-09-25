@@ -5,11 +5,8 @@ body {
     font-family: sans-serif;
   }
   html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
   }
-.name:hover{
-  color: blue ;
-}
   .live:hover{
     transition: 0.3s;
     background-color:red;

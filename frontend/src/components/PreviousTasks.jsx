@@ -1,5 +1,4 @@
-// components/PreviousTasks.js
-import React from "react";
+import React from 'react';
 
 const PreviousTasks = () => {
   return (
@@ -10,27 +9,30 @@ const PreviousTasks = () => {
         <div className="col-md-4">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title h1">Contact Form</h5>
-              <p className="card-text h5">
-                A responsive contact form built using React and Bootstrap with
-                backend integration using Express and MongoDB.
-              </p>
-              <a
-                href="https://your-live-demo-link.com"
-                className="btn live"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo
-              </a>
-              <a
-                href="https://github.com/yourusername/contact-form"
-                className="btn btn-secondary ml-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source Code
-              </a>
+              <h5 className="card-title">Contact Form</h5>
+              <p className="card-text">A responsive contact form built using React and Bootstrap with backend integration using Express and MongoDB.</p>
+              {/* Add video here */}
+              <video width="100%" controls>
+                <source src="ContactForm.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {/* Buttons */}
+              <div className="mt-3">
+                <a 
+                  href="https://github.com/shaikh28/Contact-Form-using-MERN-Stack" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn btn-primary mr-2"
+                >
+                  Source Code
+                </a>
+                <button 
+                  className="btn btn-secondary" 
+                  disabled
+                >
+                  Live Demo Soon
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -39,27 +41,30 @@ const PreviousTasks = () => {
         <div className="col-md-4">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title h1">Todo List</h5>
-              <p className="card-text h5">
-                A fully functional Todo List app with Redux, featuring add,
-                edit, delete, and mark complete functionalities in it.
-              </p>
-              <a
-                href="https://your-live-demo-link.com"
-                className="btn live"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo
-              </a>
-              <a
-                href="https://github.com/yourusername/todo-list"
-                className="btn btn-secondary ml-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source Code
-              </a>
+              <h5 className="card-title">Todo List</h5>
+              <p className="card-text">A fully functional Todo List application with Redux, featuring add, edit, delete, and mark complete functionalities.</p>
+              {/* Add video here */}
+              <video width="100%" controls>
+                <source src="TodoList.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {/* Buttons */}
+              <div className="mt-3">
+                <a 
+                  href="https://github.com/shaikh28/Todo-List-using-MERN" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn btn-primary mr-2"
+                >
+                  Source Code Soon
+                </a>
+                <button 
+                  className="btn btn-secondary" 
+                  disabled
+                >
+                  Live Demo Soon
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -68,27 +73,30 @@ const PreviousTasks = () => {
         <div className="col-md-4">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title h1">Blog Post</h5>
-              <p className="card-text h5">
-                A blogging platform where users can create, read, update, and
-                delete blog posts, built using the MERN stack.
-              </p>
-              <a
-                href="https://your-live-demo-link.com"
-                className="btn live"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo
-              </a>
-              <a
-                href="https://github.com/yourusername/blog-post"
-                className="btn btn-secondary ml-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source Code
-              </a>
+              <h5 className="card-title">Blog Post</h5>
+              <p className="card-text">A blogging platform where users can create, read, update, and delete blog posts, built using MERN stack.</p>
+              {/* Add video here */}
+              <video width="100%" controls>
+                <source src="BlogPost.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {/* Buttons */}
+              <div className="mt-3">
+                <a 
+                  href="https://github.com/shaikh28/Blog-Post-Website-Using-MERN-Stack" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn btn-primary mr-2"
+                >
+                  Source Code
+                </a>
+                <button 
+                  className="btn btn-secondary" 
+                  disabled
+                >
+                  Live Demo Soon
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -98,3 +106,4 @@ const PreviousTasks = () => {
 };
 
 export default PreviousTasks;
+  
